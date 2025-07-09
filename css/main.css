@@ -114,5 +114,95 @@ body {
     margin-bottom: 1rem !important;
 }
 
+/* --- Experience Cards --- */
+.experience-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.experience-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12), 0 5px 10px rgba(0,0,0,0.08);
+}
+
+.experience-banner {
+    position: relative;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.experience-logo-container {
+    position: absolute;
+    bottom: -40px; /* Pulls the logo down to overlap the card body */
+    left: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-logo {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: contain;
+}
+
+.experience-card .card-content {
+    padding-top: 60px; /* Make space for the overlapping logo */
+    flex-grow: 1; /* Ensures cards in the same row have the same height */
+}
+
+.experience-card .content ul {
+    margin-left: 1.2em;
+    margin-top: 1em;
+}
+
+.experience-card .content li {
+    font-size: 0.9rem;
+    padding-bottom: 0.5em;
+}
+
+/* --- Publications Page --- */
+.publication-entry {
+    margin-bottom: 2rem;
+}
+
+.publication-entry .media-left {
+    margin-right: 1.5rem;
+}
+
+.publication-entry .image img {
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+}
+
+.publication-entry .content .title {
+    margin-bottom: 0.5rem !important;
+}
+
+.publication-entry .authors {
+    font-weight: 500;
+    color: #555;
+}
+
+.publication-entry .journal {
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+.publication-entry .abstract-details summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #3273dc; /* Bulma's primary link color */
+}
 
