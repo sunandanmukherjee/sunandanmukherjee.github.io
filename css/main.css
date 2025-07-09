@@ -94,3 +94,25 @@ body {
 .footer .social-icons a:hover {
     color: #48c78e;
 }
+
+.publication-card {
+    border: 1px solid #dbdbdb;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.publication-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.publication-card .content .title {
+    line-height: 1.25; /* Improve title readability */
+    margin-bottom: 1.5rem !important;
+}
+
+.publication-card .content .subtitle {
+    margin-bottom: 1rem !important;
+}
+
+
+
