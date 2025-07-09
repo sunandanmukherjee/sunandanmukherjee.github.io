@@ -152,9 +152,10 @@ body {
 }
 
 .experience-logo {
-    max-width: 60px;
-    max-height: 60px;
-    object-fit: contain;
+    width: 100%; /* Make the image fill its circular container */
+    height: auto;
+    max-height: 60px; /* Still prevent overly tall logos from overflowing */
+    object-fit: contain; /* Ensure aspect ratio is maintained */
 }
 
 .experience-card .card-content {
