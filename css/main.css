@@ -232,8 +232,8 @@ body {
 }
 
 .footer .social-icons .icon:hover,
-.footer .social-icons .icon.is-orcid:hover,
+/*.footer .social-icons .icon.is-orcid:hover,
 .footer .social-icons .icon.is-bluesky:hover {
     color: #48c78e; /* Bulma primary color on hover */
-}
+}*/
 
