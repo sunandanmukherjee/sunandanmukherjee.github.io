@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('publications-container');
-    const myName = "Mukherjee, Sunandan"; // Your name as it appears in the JSON
+    const myName = "Sunandan Mukherjee"; // Your name as it appears in the JSON
 
     // --- Helper function to format authors ---
     function formatAuthors(authorString) {
