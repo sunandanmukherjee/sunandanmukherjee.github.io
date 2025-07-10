@@ -207,3 +207,21 @@ body {
     color: #3273dc; /* Bulma's primary link color */
 }
 
+/* Custom Icon Colors */
+.icon.is-orcid i {
+    color: #a6ce39; /* Official ORCID green */
+}
+.icon.is-bluesky i {
+    color: #1185fe; /* Official Bluesky blue */
+}
+
+/* --- Talks & Presentations Section --- */
+.talks-list .media {
+    border-bottom: 1px solid #eeeeee;
+    padding: 1.5rem 0;
+}
+
+.talks-list .media:last-child {
+    border-bottom: none;
+}
+
