@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
         let formattedString = authorString.replace(myName, `<strong>${myName}</strong>`);
 
         // Truncate long author lists
-        const authors = formattedString.split(' and ');
+        const authors = formattedString.split(', ');
         if (authors.length > 10) {
-            const firstAuthors = authors.slice(0, 9).join(' and ');
+            const firstAuthors = authors.slice(0, 9).join(', ');
             const lastAuthor = authors[authors.length - 1];
             formattedString = `${firstAuthors} ... et al. ... and ${lastAuthor}`;
         }
