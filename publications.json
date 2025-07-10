@@ -2,13 +2,13 @@
   {
     "id": "Barik_2015",
     "title": "Probing binding hot spots at protein–RNA recognition sites",
-    "author": "Barik, Amita and Nithin, Chandran and Karampudi, Naga Bhushana Rao and Mukherjee, Sunandan and Bahadur, Ranjit Prasad",
+    "author": "Barik, Amita and Nithin, Chandran and Karampudi, Naga Bhushana Rao and Mukherjee, Sunandan and Bahadur, Ranjit Prasad",
     "journal": "Nucleic Acids Research",
     "volume": "44",
     "number": "2",
-    "pages": "e9-e9",
-    "year": 2015,
-    "doi": "10.1093/nar/gkv876"
+    "pages": "e9–e9",
+    "doi": "10.1093/nar/gkv876",
+    "year": 2015
   },
   {
     "id": "Nithin_2016",
@@ -17,19 +17,227 @@
     "journal": "Proteins: Structure, Function, and Bioinformatics",
     "volume": "85",
     "number": "2",
-    "pages": "256-267",
-    "year": 2016,
-    "doi": "10.1002/prot.25211"
+    "pages": "256–267",
+    "doi": "10.1002/prot.25211",
+    "year": 2016
   },
   {
-    "id": "rydC_knot_jmb_2024",
-    "title": "Discovery of a Trefoil Knot in the RydC RNA...",
-    "author": "Niemyska, Wanda and Mukherjee, Sunandan and Greń, Bartosz, et al.",
+    "id": "Mukherjee_2018_jbsd",
+    "title": "Dissecting water binding sites at protein–protein interfaces: a lesson from the atomic structures in the Protein Data Bank",
+    "author": "Mukherjee, Sunandan and Nithin, Chandran and Divakaruni, Yasaswi and Bahadur, Ranjit Prasad",
+    "journal": "Journal of Biomolecular Structure and Dynamics",
+    "volume": "37",
+    "number": "5",
+    "pages": "1204–1219",
+    "doi": "10.1080/07391102.2018.1453379",
+    "year": 2018
+  },
+  {
+    "id": "Mukherjee_2018_scirep",
+    "title": "An account of solvent accessibility in protein-RNA recognition",
+    "author": "Mukherjee, Sunandan and Bahadur, Ranjit Prasad",
+    "journal": "Scientific Reports",
+    "volume": "8",
+    "number": "1",
+    "doi": "10.1038/s41598-018-28373-2",
+    "year": 2018
+  },
+  {
+    "id": "Ponce_Salvatierra_2019",
+    "title": "Computational modeling of RNA 3D structure based on experimental data",
+    "author": "Ponce-Salvatierra, Almudena and Astha and Merdas, Katarzyna and Nithin, Chandran and Ghosh, Pritha and Mukherjee, Sunandan and Bujnicki, Janusz M.",
+    "journal": "Bioscience Reports",
+    "volume": "39",
+    "number": "2",
+    "doi": "10.1042/bsr20180430",
+    "year": 2019
+  },
+  {
+    "id": "Stasiewicz_2019",
+    "title": "QRNAS: software tool for refinement of nucleic acid structures",
+    "author": "Stasiewicz, Juliusz and Mukherjee, Sunandan and Nithin, Chandran and Bujnicki, Janusz M.",
+    "journal": "BMC Structural Biology",
+    "volume": "19",
+    "number": "1",
+    "doi": "10.1186/s12900-019-0103-1",
+    "year": 2019
+  },
+  {
+    "id": "Nithin_2019",
+    "title": "A structure-based model for the prediction of protein–RNA binding affinity",
+    "author": "Nithin, Chandran and Mukherjee, Sunandan and Bahadur, Ranjit Prasad",
+    "journal": "RNA",
+    "volume": "25",
+    "number": "12",
+    "pages": "1628–1645",
+    "doi": "10.1261/rna.071779.119",
+    "year": 2019
+  },
+  {
+    "id": "Wirecki_2020",
+    "title": "Modeling of Three-Dimensional RNA Structures Using SimRNA",
+    "author": "Wirecki, Tomasz K. and Nithin, Chandran and Mukherjee, Sunandan and Bujnicki, Janusz M. and Boniecki, Michał J.",
+    "pages": "103–125",
+    "doi": "10.1007/978-1-0716-0708-4_6",
+    "year": 2020
+  },
+  {
+    "id": "Mukhopadhyay_2021",
+    "title": "Residues at the interface between zinc binding and winged helix domains of human RECQ1 play a significant role in DNA strand annealing activity",
+    "author": "Mukhopadhyay, Swagata and Das, Tulika and Bose, Madhuparna and Jain, Chetan Kumar and Chakraborty, Mayukh and Mukherjee, Sunandan and Shikha, Kumari and Das, Amit K and Ganguly, Agneyo",
+    "journal": "Nucleic Acids Research",
+    "volume": "49",
+    "number": "20",
+    "pages": "11834–11854",
+    "doi": "10.1093/nar/gkab968",
+    "year": 2021
+  },
+  {
+    "id": "Kuepper_2021",
+    "title": "Constrained peptides mimic a viral suppressor of RNA silencing",
+    "author": "Kuepper, Arne and McLoughlin, Niall M and Neubacher, Saskia and Yeste-Vázquez, Alejandro and Collado Camps, Estel and Nithin, Chandran and Mukherjee, Sunandan and Bethge, Lucas and Bujnicki, Janusz M and Brock, Roland and Heinrichs, Stefan and Grossmann, Tom N",
+    "journal": "Nucleic Acids Research",
+    "volume": "49",
+    "number": "22",
+    "pages": "12622–12633",
+    "doi": "10.1093/nar/gkab1149",
+    "year": 2021
+  },
+  {
+    "id": "Boccaletto_2021",
+    "title": "MODOMICS: a database of RNA modification pathways. 2021 update",
+    "author": "Boccaletto, Pietro and Stefaniak, Filip and Ray, Angana and Cappannini, Andrea and Mukherjee, Sunandan and Purta, Elżbieta and Kurkowska, Małgorzata and Shirvanizadeh, Niloofar and Destefanis, Eliana and Groza, Paula and Avşar, Gülben and Romitelli, Antonia and Pir, Pınar and Dassi, Erik and Conticello, Silvestro G and Aguilo, Francesca and Bujnicki, Janusz M",
+    "journal": "Nucleic Acids Research",
+    "volume": "50",
+    "number": "D1",
+    "pages": "D231–D235",
+    "doi": "10.1093/nar/gkab1083",
+    "year": 2021
+  },
+  {
+    "id": "Gumna_2022",
+    "title": "Computational Pipeline for Reference-Free Comparative Analysis of RNA 3D Structures Applied to SARS-CoV-2 UTR Models",
+    "author": "Gumna, Julita and Antczak, Maciej and Adamiak, Ryszard W. and Bujnicki, Janusz M. and Chen, Shi-Jie and Ding, Feng and Ghosh, Pritha and Li, Jun and Mukherjee, Sunandan and Nithin, Chandran and Pachulska-Wieczorek, Katarzyna and Ponce-Salvatierra, Almudena and Popenda, Mariusz and Sarzynska, Joanna and Wirecki, Tomasz and Zhang, Dong and Zhang, Sicheng and Zok, Tomasz and Westhof, Eric and Miao, Zhichao and Szachniuk, Marta and Rybarczyk, Agnieszka",
+    "journal": "International Journal of Molecular Sciences",
+    "volume": "23",
+    "number": "17",
+    "pages": "9630",
+    "doi": "10.3390/ijms23179630",
+    "year": 2022
+  },
+  {
+    "id": "Cappannini_2022",
+    "title": "NACDDB: Nucleic Acid Circular Dichroism Database",
+    "author": "Cappannini, Andrea and Mosca, Kevin and Mukherjee, Sunandan and Moafinejad, S Naeim and Sinden, Richard R and Arluison, Veronique and Bujnicki, Janusz and Wien, Frank",
+    "journal": "Nucleic Acids Research",
+    "volume": "51",
+    "number": "D1",
+    "pages": "D226–D231",
+    "doi": "10.1093/nar/gkac829",
+    "year": 2022
+  },
+  {
+    "id": "Nithin_2022",
+    "title": "NCodR: A multi-class support vector machine classification to distinguish non-coding RNAs in Viridiplantae",
+    "author": "Nithin, Chandran and Mukherjee, Sunandan and Basak, Jolly and Bahadur, Ranjit Prasad",
+    "journal": "Quantitative Plant Biology",
+    "volume": "3",
+    "doi": "10.1017/qpb.2022.18",
+    "year": 2022
+  },
+  {
+    "id": "Baulin_2023",
+    "title": "<scp>RNA</scp> tertiary structure prediction in <scp>CASP15</scp> by the <scp>GeneSilico</scp> group: Folding simulations based on statistical potentials and spatial restraints",
+    "author": "Baulin, Eugene F. and Mukherjee, Sunandan and Moafinejad, S. Naeim and Wirecki, Tomasz K. and Badepally, Nagendar Goud and Jaryani, Farhang and Stefaniak, Filip and Amiri Farsani, Masoud and Ray, Angana and Rocha de Moura, Tales and Bujnicki, Janusz M.",
+    "journal": "Proteins: Structure, Function, and Bioinformatics",
+    "volume": "91",
+    "number": "12",
+    "pages": "1800–1810",
+    "doi": "10.1002/prot.26575",
+    "year": 2023
+  },
+  {
+    "id": "Chojnowski_2023",
+    "title": "RNA 3D structure modeling by fragment assembly with small-angle X-ray scattering restraints",
+    "author": "Chojnowski, Grzegorz and Zaborowski, Rafał and Magnus, Marcin and Mukherjee, Sunandan and Bujnicki, Janusz M",
+    "journal": "Bioinformatics",
+    "volume": "39",
+    "number": "9",
+    "doi": "10.1093/bioinformatics/btad527",
+    "year": 2023
+  },
+  {
+    "id": "Cappannini_2023",
+    "title": "MODOMICS: a database of RNA modifications and related information. 2023 update",
+    "author": "Cappannini, Andrea and Ray, Angana and Purta, Elżbieta and Mukherjee, Sunandan and Boccaletto, Pietro and Moafinejad, S Naeim and Lechner, Antony and Barchet, Charles and Klaholz, Bruno P and Stefaniak, Filip and Bujnicki, Janusz M",
+    "journal": "Nucleic Acids Research",
+    "volume": "52",
+    "number": "D1",
+    "pages": "D239–D244",
+    "doi": "10.1093/nar/gkad1083",
+    "year": 2023
+  },
+  {
+    "id": "Niemyska_2024",
+    "title": "Discovery of a trefoil knot in the RydC RNA: Challenging previous notions of RNA topology",
+    "author": "Niemyska, Wanda and Mukherjee, Sunandan and Gren, Bartosz A. and Niewieczerzal, Szymon and Bujnicki, Janusz M. and Sulkowska, Joanna I.",
     "journal": "Journal of Molecular Biology",
     "volume": "436",
     "number": "6",
-    "pages": "168384",
-    "year": 2024,
-    "doi": "10.1016/j.jmb.2023.168384"
+    "pages": "168455",
+    "doi": "10.1016/j.jmb.2024.168455",
+    "year": 2024
+  },
+  {
+    "id": "de_Moura_2024",
+    "title": "Conserved structures and dynamics in 5′-proximal regions of Betacoronavirus RNA genomes",
+    "author": "de Moura, Tales Rocha and Purta, Elżbieta and Bernat, Agata and Martín-Cuevas, Eva M and Kurkowska, Małgorzata and Baulin, Eugene F and Mukherjee, Sunandan and Nowak, Jakub and Biela, Artur P and Rawski, Michał and Glatt, Sebastian and Moreno-Herrero, Fernando and Bujnicki, Janusz M",
+    "journal": "Nucleic Acids Research",
+    "volume": "52",
+    "number": "6",
+    "pages": "3419–3432",
+    "doi": "10.1093/nar/gkae144",
+    "year": 2024
+  },
+  {
+    "id": "Mukherjee_2024",
+    "title": "Advances in the field of RNA 3D structure prediction and modeling, with purely theoretical approaches, and with the use of experimental data",
+    "author": "Mukherjee, Sunandan and Moafinejad, S. Naeim and Badepally, Nagendar Goud and Merdas, Katarzyna and Bujnicki, Janusz M.",
+    "journal": "Structure",
+    "volume": "32",
+    "number": "11",
+    "pages": "1860–1876",
+    "doi": "10.1016/j.str.2024.08.015",
+    "year": 2024
+  },
+  {
+    "id": "Bu_2024",
+    "title": "RNA-Puzzles Round V: blind predictions of 23 RNA structures",
+    "author": "Bu, Fan and Adam, Yagoub and Adamiak, Ryszard W. and Antczak, Maciej and de Aquino, Belisa Rebeca H. and Badepally, Nagendar Goud and Batey, Robert T. and Baulin, Eugene F. and Boinski, Pawel and Boniecki, Michal J. and Bujnicki, Janusz M. and Carpenter, Kristy A. and Chacon, Jose and Chen, Shi-Jie and Chiu, Wah and Cordero, Pablo and Das, Naba Krishna and Das, Rhiju and Dawson, Wayne K. and DiMaio, Frank and Ding, Feng and Dock-Bregeon, Anne-Catherine and Dokholyan, Nikolay V. and Dror, Ron O. and Dunin-Horkawicz, Stanisław and Eismann, Stephan and Ennifar, Eric and Esmaeeli, Reza and Farsani, Masoud Amiri and Ferré-D’Amaré, Adrian R. and Geniesse, Caleb and Ghanim, George E. and Guzman, Horacio V. and Hood, Iris V. and Huang, Lin and Jain, Dharm Skandh and Jaryani, Farhang and Jin, Lei and Joshi, Astha and Karelina, Masha and Kieft, Jeffrey S. and Kladwang, Wipapat and Kmiecik, Sebastian and Koirala, Deepak and Kollmann, Markus and Kretsch, Rachael C. and Kurciński, Mateusz and Li, Jun and Li, Shuang and Magnus, Marcin and Masquida, BenoÎt and Moafinejad, S. Naeim and Mondal, Arup and Mukherjee, Sunandan and Nguyen, Thi Hoang Duong and Nikolaev, Grigory and Nithin, Chandran and Nye, Grace and Pandaranadar Jeyeram, Iswarya P. N. and Perez, Alberto and Pham, Phillip and Piccirilli, Joseph A. and Pilla, Smita Priyadarshini and Pluta, Radosław and Poblete, Simón and Ponce-Salvatierra, Almudena and Popenda, Mariusz and Popenda, Lukasz and Pucci, Fabrizio and Rangan, Ramya and Ray, Angana and Ren, Aiming and Sarzynska, Joanna and Sha, Congzhou Mike and Stefaniak, Filip and Su, Zhaoming and Suddala, Krishna C. and Szachniuk, Marta and Townshend, Raphael and Trachman, Robert J. and Wang, Jian and Wang, Wenkai and Watkins, Andrew and Wirecki, Tomasz K. and Xiao, Yi and Xiong, Peng and Xiong, Yiduo and Yang, Jianyi and Yesselman, Joseph David and Zhang, Jinwei and Zhang, Yi and Zhang, Zhenzhen and Zhou, Yuanzhe and Zok, Tomasz and Zhang, Dong and Zhang, Sicheng and Żyła, Adriana and Westhof, Eric and Miao, Zhichao",
+    "journal": "Nature Methods",
+    "volume": "22",
+    "number": "2",
+    "pages": "399–411",
+    "doi": "10.1038/s41592-024-02543-9",
+    "year": 2024
+  },
+  {
+    "id": "Kant_2025",
+    "title": "Protein‐<scp>RNA</scp> Docking Benchmark v3.0 Integrated With Binding Affinity",
+    "author": "Kant, Shri and Nithin, Chandran and Mukherjee, Sunandan and Maity, Atanu and Bahadur, Ranjit Prasad",
+    "journal": "Proteins: Structure, Function, and Bioinformatics",
+    "doi": "10.1002/prot.26825",
+    "year": 2025
+  },
+  {
+    "id": "Biela_2025",
+    "title": "Determining the effects of pseudouridine incorporation on human tRNAs",
+    "author": "Biela, Anna D and Nowak, Jakub S and Biela, Artur P and Mukherjee, Sunandan and Moafinejad, Seyed Naeim and Maiti, Satyabrata and Chramiec-Głąbik, Andrzej and Mehta, Rahul and Jeżowski, Jakub and Dobosz, Dominika and Dahate, Priyanka and Arluison, Veronique and Wien, Frank and Indyka, Paulina and Rawski, Michal and Bujnicki, Janusz M and Lin, Ting-Yu and Glatt, Sebastian",
+    "journal": "The EMBO Journal",
+    "volume": "44",
+    "number": "13",
+    "pages": "3553–3585",
+    "doi": "10.1038/s44318-025-00443-y",
+    "year": 2025
   }
 ]
