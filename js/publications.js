@@ -1,16 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('publications-container');
 
+    // Fetch the JSON file instead of the bib file
     fetch('publications.json')
         .then(response => {
             if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
             return response.json();
         })
-        .then(publications => {
-            if (!Array.isArray(publications) || publications.length === 0) {
-                container.innerHTML = '<p class="has-text-centered has-text-danger">Could not load publications. Please check the JSON file.</p>';
+        .then(publicationsData => {
+            // Check if the data is a non-empty array
+            if (!Array.isArray(publicationsData) || publicationsData.length === 0) {
+                container.innerHTML = '<p class="has-text-centered has-text-danger">No publications found or data is not in the correct format.</p>';
                 return;
             }
 
@@ -18,29 +20,26 @@ document.addEventListener('DOMContentLoaded', () => {
             container.innerHTML = '';
 
             // Sort publications by year, descending
-            publications.sort((a, b) => {
-                const yearA = parseInt(a.year, 10) || 0;
-                const yearB = parseInt(b.year, 10) || 0;
-                return yearB - yearA;
-            });
+            publicationsData.sort((a, b) => (b.year || 0) - (a.year || 0));
 
-            publications.forEach(entry => {
-                // Use a key or id for graphical abstract filename; fallback to sanitized title if no key
-                const key = entry.key || entry.id || entry.title?.replace(/\W+/g, '_').toLowerCase() || 'unknown';
-                const graphicalAbstractUrl = `img/graphical_abstracts/${key}.png`;
+            // Loop through the array of publications and create HTML for each one
+            publicationsData.forEach(entry => {
+                // Construct the image path using the entry's 'id'
+                // You can add more supported extensions here if needed
+                const graphicalAbstractUrl = `img/graphical_abstracts/${entry.id}.jpg`;
 
                 const publicationHTML = `
                     <div class="box publication-entry">
                         <article class="media">
                             <figure class="media-left">
                                 <p class="image is-128x128">
-                                    <img src="${graphicalAbstractUrl}" alt="Graphical Abstract for ${entry.title || 'No Title'}" onerror="this.onerror=null;this.src='https://via.placeholder.com/128x128.png?text=No+Image';">
+                                    <img src="${graphicalAbstractUrl}" alt="Graphical Abstract for ${entry.title}" onerror="this.onerror=null;this.src='https://via.placeholder.com/128x128.png?text=No+Image';">
                                 </p>
                             </figure>
                             <div class="media-content">
                                 <div class="content">
                                     <h4 class="title is-4">${entry.title || 'Title not found'}</h4>
-                                    <p class="authors">${entry.authors || 'Author not found'}</p>
+                                    <p class="authors">${entry.author || 'Author not found'}</p>
                                     <p class="journal">
                                         <em>${entry.journal || ''}</em>
                                         ${entry.volume ? `, vol. ${entry.volume}` : ''}
@@ -72,8 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
         }).catch(error => {
-            console.error('Error fetching or parsing JSON file:', error);
-            container.innerHTML = '<p class="has-text-centered has-text-danger">Failed to load publications.</p>';
+            console.error('Error fetching or parsing publications.json:', error);
+            container.innerHTML = `<p class="has-text-centered has-text-danger">Failed to load publications. Check the browser console (F12) for more details.</p>`;
         });
 });
-
