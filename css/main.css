@@ -225,3 +225,15 @@ body {
     border-bottom: none;
 }
 
+/* --- Footer Icon Color Fix --- */
+.footer .social-icons .icon {
+    color: #363636; /* Default dark grey for icons in the footer */
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons .icon:hover,
+.footer .social-icons .icon.is-orcid:hover,
+.footer .social-icons .icon.is-bluesky:hover {
+    color: #48c78e; /* Bulma primary color on hover */
+}
+
