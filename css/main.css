@@ -237,3 +237,13 @@ body {
     color: #48c78e; /* Bulma primary color on hover */
 }*/
 
+/* --- Publication Page Year Headings --- */
+.year-heading {
+    border-bottom: 2px solid #dbdbdb;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.year-heading:first-of-type {
+    margin-top: 0;
+}

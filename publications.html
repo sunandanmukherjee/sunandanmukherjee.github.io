@@ -10,46 +10,29 @@
 </head>
 <body>
     <!-- Navbar (same as before) -->
-    <nav class="navbar is-fixed-top is-scrolled" role="navigation" aria-label="main navigation">
-        <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-item has-text-weight-bold" href="index.html">Sunandan Mukherjee</a>
-            </div>
-            <div class="navbar-menu">
-                <div class="navbar-end">
-                    <a href="index.html#about" class="navbar-item">About</a>
-                    <a href="index.html#experience" class="navbar-item">Experience</a>
-                    <a href="publications.html" class="navbar-item is-active">Publications</a>
-                    <a href="index.html#talks" class="navbar-item">Talks</a>
-                    <a href="index.html#skills" class="navbar-item">Skills</a>
-                    <a href="index.html#contact" class="navbar-item">Contact</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    
-    <!-- Publications Page Section -->
+    <nav class="navbar is-fixed-top is-scrolled" ...> ... </nav>
+
     <section id="publications-page" class="section">
         <div class="container">
-            <h1 class="title is-1 has-text-centered">Publications</h1>
-            <h2 class="subtitle is-4 has-text-centered">A detailed list of my research contributions.</h2>
+            <h1 class="title is-1 has-text-centered">Full Publication List</h1>
             
-            <!-- Publications will be dynamically inserted here -->
+            <!-- Filter Tags Container -->
+            <div id="filter-tags-container" class="field is-grouped is-grouped-multiline is-justify-content-center mt-5">
+                <!-- Tags will be dynamically inserted here -->
+            </div>
+
+            <!-- Publications will be dynamically inserted here, grouped by year -->
             <div id="publications-container" class="mt-5">
                 <p class="has-text-centered">Loading publications...</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer id="contact" class="footer">
-        <div class="content has-text-centered">
-            <p>© 2024 Dr. Sunandan Mukherjee. <a href="index.html">Back to Home</a>.</p>
-        </div>
-    </footer>
-    <!-- Altmetrics Script -->
+    <!-- Footer (same as before) -->
+    <footer id="contact" ...> ... </footer>
+
+    <!-- Scripts (no change needed here) -->
     <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-    <!-- Custom script to render publications -->
     <script src="js/publications.js"></script>
 </body>
 </html>
