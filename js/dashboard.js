@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // These are placeholders. You can manually set these or keep them simple.
             // For a truly dynamic solution, you'd need more data.
             document.getElementById('metric-papers').textContent = publications.length;
-            document.getElementById('metric-citations').textContent = "1200+"; // Manually update this value
-            document.getElementById('metric-h-index').textContent = "15+"; // Manually update this value
-            document.getElementById('metric-if').textContent = "110+"; // Manually update this value
+            document.getElementById('metric-citations').textContent = "1400+"; // Manually update this value
+            document.getElementById('metric-h-index').textContent = "15"; // Manually update this value
+            document.getElementById('metric-if').textContent = "302.8"; // Manually update this value
             
             // --- Prepare Chart Data ---
             const pubsByYear = {};
