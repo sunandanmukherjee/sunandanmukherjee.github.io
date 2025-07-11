@@ -89,7 +89,7 @@
     "abstract": "BACKGROUND: Computational models of RNA 3D structure often present various inaccuracies caused by simplifications used in structure prediction methods, such as template-based modeling or coarse-grained simulations. To obtain a high-quality model, the preliminary RNA structural model needs to be refined, taking into account atomic interactions. The goal of the refinement is not only to improve the local quality of the model but to bring it globally closer to the true structure. RESULTS: We present QRNAS, a software tool for fine-grained refinement of nucleic acid structures, which is an extension of the AMBER simulation method with additional restraints. QRNAS is capable of handling RNA, DNA, chimeras, and hybrids thereof, and enables modeling of nucleic acids containing modified residues. CONCLUSIONS: We demonstrate the ability of QRNAS to improve the quality of models generated with different methods. QRNAS was able to improve MolProbity scores of NMR structures, as well as of computational models generated in the course of the RNA-Puzzles experiment. The overall geometry improvement may be associated with increased model accuracy, especially on the level of correctly modeled base-pairs, but the systematic improvement of root mean square deviation to the reference structure should not be expected. The method has been integrated into a computational modeling workflow, enabling improved RNA 3D structure prediction.",
     "issn": "1472-6807",
     "year": 2019,
-    "tag": ["Review"]
+    "tags": ["Review"]
   },
   {
     "id": "Nithin_2019",
@@ -105,7 +105,7 @@
     "abstract": "Protein-RNA recognition is highly affinity-driven and regulates a wide array of cellular functions. In this study, we have curated a binding affinity data set of 40 protein-RNA complexes, for which at least one unbound partner is available in the docking benchmark. The data set covers a wide affinity range of eight orders of magnitude as well as four different structural classes. On average, we find the complexes with single-stranded RNA have the highest affinity, whereas the complexes with the duplex RNA have the lowest. Nevertheless, free energy gain upon binding is the highest for the complexes with ribosomal proteins and the lowest for the complexes with tRNA with an average of -5.7 cal/mol/Å(2) in the entire data set. We train regression models to predict the binding affinity from the structural and physicochemical parameters of protein-RNA interfaces. The best fit model with the lowest maximum error is provided with three interface parameters: relative hydrophobicity, conformational change upon binding and relative hydration pattern. This model has been used for predicting the binding affinity on a test data set, generated using mutated structures of yeast aspartyl-tRNA synthetase, for which experimentally determined ΔG values of 40 mutations are available. The predicted ΔG(empirical) values highly correlate with the experimental observations. The data set provided in this study should be useful for further development of the binding affinity prediction methods. Moreover, the model developed in this study enhances our understanding on the structural basis of protein-RNA binding affinity and provides a platform to engineer protein-RNA interfaces with desired affinity.",
     "issn": "1469-9001",
     "year": 2019,
-    "tag": ["Analysis", "Software"]
+    "tags": ["Analysis", "Software"]
   },
   {
     "id": "Wirecki_2020",
@@ -118,7 +118,7 @@
     "abstract": "The molecules of the ribonucleic acid (RNA) perform a variety of vital roles in all living cells. Their biological function depends on their structure and dynamics, both of which are difficult to experimentally determine but can be theoretically inferred based on the RNA sequence. SimRNA is one of the computational methods for molecular simulations of RNA 3D structure formation. The method is based on a simplified (coarse-grained) representation of nucleotide chains, a statistically derived model of interactions (statistical potential), and the Monte Carlo method as a conformational sampling scheme.The current version of SimRNA (3.22) is able to predict basic topologies of RNA molecules with sizes up to about 50-70 nucleotides, based on their sequences only, and larger molecules if supplied with appropriate distance restraints. The user can specify various types of restraints, including secondary structure, pairwise atom-atom distances, and positions of atoms. SimRNA can be also used for studying systems composed of several chains of RNA. SimRNA is a folding simulations method, thus it allows for examining folding pathways, getting an approximate view of the energy landscapes.",
     "issn": "1940-6029",
     "year": 2020,
-    "tag": ["Book chapter"]
+    "tags": ["Book chapter"]
   },
   {
     "id": "Mukhopadhyay_2021",
@@ -134,7 +134,7 @@
     "abstract": "RECQ1 is the shortest among the five human RecQ helicases comprising of two RecA like domains, a zinc-binding domain and a RecQ C-terminal domain containing the winged-helix (WH). Mutations or deletions on the tip of a β-hairpin located in the WH domain are known to abolish the unwinding activity. Interestingly, the same mutations on the β-hairpin of annealing incompetent RECQ1 mutant (RECQ1T1) have been reported to restore its annealing activity. In an attempt to unravel the strand annealing mechanism, we have crystallized a fragment of RECQ1 encompassing D2-Zn-WH domains harbouring mutations on the β-hairpin. From our crystal structure data and interface analysis, we have demonstrated that an α-helix located in zinc-binding domain potentially interacts with residues of WH domain, which plays a significant role in strand annealing activity. We have shown that deletion of the α-helix or mutation of specific residues on it restores strand annealing activity of annealing deficient constructs of RECQ1. Our results also demonstrate that mutations on the α-helix induce conformational changes and affects DNA stimulated ATP hydrolysis and unwinding activity of RECQ1. Our study, for the first time, provides insight into the conformational requirements of the WH domain for efficient strand annealing by human RECQ1.",
     "issn": "1362-4962",
     "year": 2021,
-    "tag": ["Analysis", "Molecular modeling"]
+    "tags": ["Analysis", "Molecular modeling"]
   },
   {
     "id": "Kuepper_2021",
@@ -150,7 +150,7 @@
     "abstract": "The design of high-affinity, RNA-binding ligands has proven very challenging. This is due to the unique structural properties of RNA, often characterized by polar surfaces and high flexibility. In addition, the frequent lack of well-defined binding pockets complicates the development of small molecule binders. This has triggered the search for alternative scaffolds of intermediate size. Among these, peptide-derived molecules represent appealing entities as they can mimic structural features also present in RNA-binding proteins. However, the application of peptidic RNA-targeting ligands is hampered by a lack of design principles and their inherently low bio-stability. Here, the structure-based design of constrained α-helical peptides derived from the viral suppressor of RNA silencing, TAV2b, is described. We observe that the introduction of two inter-side chain crosslinks provides peptides with increased α-helicity and protease stability. One of these modified peptides (B3) shows high affinity for double-stranded RNA structures including a palindromic siRNA as well as microRNA-21 and its precursor pre-miR-21. Notably, B3 binding to pre-miR-21 inhibits Dicer processing in a biochemical assay. As a further characteristic this peptide also exhibits cellular entry. Our findings show that constrained peptides can efficiently mimic RNA-binding proteins rendering them potentially useful for the design of bioactive RNA-targeting ligands.",
     "issn": "1362-4962",
     "year": 2021,
-    "tag": ["Analysis", "Molecular modeling"]
+    "tags": ["Analysis", "Molecular modeling"]
   },
   {
     "id": "Boccaletto_2021",
@@ -166,7 +166,7 @@
     "abstract": "The MODOMICS database has been, since 2006, a manually curated and centralized resource, storing and distributing comprehensive information about modified ribonucleosides. Originally, it only contained data on the chemical structures of modified ribonucleosides, their biosynthetic pathways, the location of modified residues in RNA sequences, and RNA-modifying enzymes. Over the years, prompted by the accumulation of new knowledge and new types of data, it has been updated with new information and functionalities. In this new release, we have created a catalog of RNA modifications linked to human diseases, e.g., due to mutations in genes encoding modification enzymes. MODOMICS has been linked extensively to RCSB Protein Data Bank, and sequences of experimentally determined RNA structures with modified residues have been added. This expansion was accompanied by including nucleotide 5'-monophosphate residues. We redesigned the web interface and upgraded the database backend. In addition, a search engine for chemically similar modified residues has been included that can be queried by SMILES codes or by drawing chemical molecules. Finally, previously available datasets of modified residues, biosynthetic pathways, and RNA-modifying enzymes have been updated. Overall, we provide users with a new, enhanced, and restyled tool for research on RNA modification. MODOMICS is available at https://iimcb.genesilico.pl/modomics/.",
     "issn": "1362-4962",
     "year": 2021,
-    "tag": ["Database", "Data mining"]
+    "tags": ["Database", "Data mining"]
   },
   {
     "id": "Gumna_2022",
@@ -182,7 +182,7 @@
     "abstract": "RNA is a unique biomolecule that is involved in a variety of fundamental biological functions, all of which depend solely on its structure and dynamics. Since the experimental determination of crystal RNA structures is laborious, computational 3D structure prediction methods are experiencing an ongoing and thriving development. Such methods can lead to many models; thus, it is necessary to build comparisons and extract common structural motifs for further medical or biological studies. Here, we introduce a computational pipeline dedicated to reference-free high-throughput comparative analysis of 3D RNA structures. We show its application in the RNA-Puzzles challenge, in which five participating groups attempted to predict the three-dimensional structures of 5'- and 3'-untranslated regions (UTRs) of the SARS-CoV-2 genome. We report the results of this puzzle and discuss the structural motifs obtained from the analysis. All simulated models and tools incorporated into the pipeline are open to scientific and academic use.",
     "issn": "1422-0067",
     "year": 2022,
-    "tag": ["Molecular modeling", "Analysis"]
+    "tags": ["Molecular modeling", "Analysis"]
   },
   {
     "id": "Cappannini_2022",
@@ -198,7 +198,7 @@
     "abstract": "The Nucleic Acid Circular Dichroism Database (NACDDB) is a public repository that archives and freely distributes circular dichroism (CD) and synchrotron radiation CD (SRCD) spectral data about nucleic acids, and the associated experimental metadata, structural models, and links to literature. NACDDB covers CD data for various nucleic acid molecules, including DNA, RNA, DNA/RNA hybrids, and various nucleic acid derivatives. The entries are linked to primary sequence and experimental structural data, as well as to the literature. Additionally, for all entries, 3D structure models are provided. All entries undergo expert validation and curation procedures to ensure completeness, consistency, and quality of the data included. The NACDDB is open for submission of the CD data for nucleic acids. NACDDB is available at: https://genesilico.pl/nacddb/.",
     "issn": "1362-4962",
     "year": 2022,
-    "tag": ["Database", "Data mining", "Molecular modeling"]
+    "tags": ["Database", "Data mining", "Molecular modeling"]
   },
   {
     "id": "Nithin_2022",
@@ -212,7 +212,7 @@
     "abstract": "Non-coding RNAs (ncRNAs) are major players in the regulation of gene expression. This study analyses seven classes of ncRNAs in plants using sequence and secondary structure-based RNA folding measures. We observe distinct regions in the distribution of AU content along with overlapping regions for different ncRNA classes. Additionally, we find similar averages for minimum folding energy index across various ncRNAs classes except for pre-miRNAs and lncRNAs. Various RNA folding measures show similar trends among the different ncRNA classes except for pre-miRNAs and lncRNAs. We observe different k-mer repeat signatures of length three among various ncRNA classes. However, in pre-miRs and lncRNAs, a diffuse pattern of k-mers is observed. Using these attributes, we train eight different classifiers to discriminate various ncRNA classes in plants. Support vector machines employing radial basis function show the highest accuracy (average F1 of \\~96\\%) in discriminating ncRNAs, and the classifier is implemented as a web server, NCodR.",
     "issn": "2632-8828",
     "year": 2022,
-    "tag": ["AI/ML", "Software"]
+    "tags": ["AI/ML", "Software"]
   },
   {
     "id": "Baulin_2023",
@@ -228,7 +228,7 @@
     "abstract": "Ribonucleic acid (RNA) molecules serve as master regulators of cells by encoding their biological function in the ribonucleotide sequence, particularly their ability to interact with other molecules. To understand how RNA molecules perform their biological tasks and to design new sequences with specific functions, it is of great benefit to be able to computationally predict how RNA folds and interacts in the cellular environment. Our workflow for computational modeling of the 3D structures of RNA and its interactions with other molecules uses a set of methods developed in our laboratory, including MeSSPredRNA for predicting canonical and non-canonical base pairs, PARNASSUS for detecting remote homology based on comparisons of sequences and secondary structures, ModeRNA for comparative modeling, the SimRNA family of programs for modeling RNA 3D structure and its complexes with other molecules, and QRNAS for model refinement. In this study, we present the results of testing this workflow in predicting RNA 3D structures in the CASP15 experiment. The overall high score of the computational models predicted by our group demonstrates the robustness of our workflow and its individual components in terms of predicting RNA 3D structures of acceptable quality that are close to the target structures. However, the variance in prediction quality is still quite high, and the results are still too far from the level of protein 3D structure predictions. This exercise led us to consider several improvements, especially to better predict and enforce stacking interactions and non-canonical base pairs.",
     "issn": "1097-0134",
     "year": 2023,
-    "tag": ["Molecular modeling", "Analysis"]
+    "tags": ["Molecular modeling", "Analysis"]
   },
   {
     "id": "Chojnowski_2023",
@@ -243,7 +243,7 @@
     "abstract": "SUMMARY: Structure determination is a key step in the functional characterization of many non-coding RNA molecules. High-resolution RNA 3D structure determination efforts, however, are not keeping up with the pace of discovery of new non-coding RNA sequences. This increases the importance of computational approaches and low-resolution experimental data, such as from the small-angle X-ray scattering experiments. We present RNA Masonry, a computer program and a web service for a fully automated modeling of RNA 3D structures. It assemblies RNA fragments into geometrically plausible models that meet user-provided secondary structure constraints, restraints on tertiary contacts, and small-angle X-ray scattering data. We illustrate the method description with detailed benchmarks and its application to structural studies of viral RNAs with SAXS restraints. AVAILABILITY AND IMPLEMENTATION: The program web server is available at http://iimcb.genesilico.pl/rnamasonry. The source code is available at https://gitlab.com/gchojnowski/rnamasonry.",
     "issn": "1367-4811",
     "year": 2023,
-    "tag": ["Software", "Molecular modeling"]
+    "tags": ["Software", "Molecular modeling"]
   },
   {
     "id": "Cappannini_2023",
@@ -259,7 +259,7 @@
     "abstract": "The MODOMICS database was updated with recent data and now includes new data types related to RNA modifications. Changes to the database include an expanded modification catalog, encompassing both natural and synthetic residues identified in RNA structures. This addition aids in representing RNA sequences from the RCSB PDB database more effectively. To manage the increased number of modifications, adjustments to the nomenclature system were made. Updates in the RNA sequences section include the addition of new sequences and the reintroduction of sequence alignments for tRNAs and rRNAs. The protein section was updated and connected to structures from the RCSB PDB database and predictions by AlphaFold. MODOMICS now includes a data annotation system, with 'Evidence' and 'Estimated Reliability' features, offering clarity on data support and accuracy. This system is open to all MODOMICS entries, enhancing the accuracy of RNA modification data representation. MODOMICS is available at https://iimcb.genesilico.pl/modomics/.",
     "issn": "1362-4962",
     "year": 2023,
-    "tag": ["Database", "Data mining"]
+    "tags": ["Database", "Data mining"]
   },
   {
     "id": "Niemyska_2024",
@@ -275,7 +275,7 @@
     "abstract": "Knots are very common in polymers, including DNA and protein molecules. Yet, no genuine knot has been identified in natural RNA molecules to date. Upon re-examining experimentally determined RNA 3D structures, we discovered a trefoil knot 3(1), the most basic non-trivial knot, in the RydC RNA. This knotted RNA is a member of a small family of short bacterial RNAs, whose secondary structure is characterized by an H-type pseudoknot. Molecular dynamics simulations suggest a folding pathway of the RydC RNA that starts with a native twisted loop. Based on sequence analyses and computational RNA 3D structure predictions, we postulate that this trefoil knot is a conserved feature of all RydC-related RNAs. The first discovery of a knot in a natural RNA molecule introduces a novel perspective on RNA 3D structure formation and on fundamental research on the relationship between function and spatial structure of biopolymers.",
     "issn": "0022-2836",
     "year": 2024,
-    "tag": ["Analysis", "Data mining"]
+    "tags": ["Analysis", "Data mining"]
   },
   {
     "id": "de_Moura_2024",
@@ -291,7 +291,7 @@
     "abstract": "Betacoronaviruses are a genus within the Coronaviridae family of RNA viruses. They are capable of infecting vertebrates and causing epidemics as well as global pandemics in humans. Mitigating the threat posed by Betacoronaviruses requires an understanding of their molecular diversity. The development of novel antivirals hinges on understanding the key regulatory elements within the viral RNA genomes, in particular the 5'-proximal region, which is pivotal for viral protein synthesis. Using a combination of cryo-electron microscopy, atomic force microscopy, chemical probing, and computational modeling, we determined the structures of 5'-proximal regions in RNA genomes of Betacoronaviruses from four subgenera: OC43-CoV, SARS-CoV-2, MERS-CoV, and Rousettus bat-CoV. We obtained cryo-electron microscopy maps and determined atomic-resolution models for the stem-loop-5 (SL5) region at the translation start site and found that despite low sequence similarity and variable length of the helical elements it exhibits a remarkable structural conservation. Atomic force microscopy imaging revealed a common domain organization and a dynamic arrangement of structural elements connected with flexible linkers across all four Betacoronavirus subgenera. Together, these results reveal common features of a critical regulatory region shared between different Betacoronavirus RNA genomes, which may allow targeting of these RNAs by broad-spectrum antiviral therapeutics.",
     "issn": "1362-4962",
     "year": 2024,
-    "tag": ["Analysis", "Molecular modeling"]
+    "tags": ["Analysis", "Molecular modeling"]
   },
   {
     "id": "Mukherjee_2024",
@@ -307,7 +307,7 @@
     "abstract": "Recent advancements in RNA three-dimensional (3D) structure prediction have provided significant insights into RNA biology, highlighting the essential role of RNA in cellular functions and its therapeutic potential. This review summarizes the latest developments in computational methods, particularly the incorporation of artificial intelligence and machine learning, which have improved the efficiency and accuracy of RNA structure predictions. We also discuss the integration of new experimental data types, including cryoelectron microscopy (cryo-EM) techniques and high-throughput sequencing, which have transformed RNA structure modeling. The combination of experimental advances with computational methods represents a significant leap in RNA structure determination. We review the outcomes of RNA-Puzzles and critical assessment of structure prediction (CASP) challenges, which assess the state of the field and limitations of existing methods. Future perspectives are discussed, focusing on the impact of RNA 3D structure prediction on understanding RNA mechanisms and its implications for drug discovery and RNA-targeted therapies, opening new avenues in molecular biology.",
     "issn": "0969-2126",
     "year": 2024,
-    "tag": ["Review"]
+    "tags": ["Review"]
   },
   {
     "id": "Bu_2024",
@@ -323,7 +323,7 @@
     "abstract": "RNA-Puzzles is a collective endeavor dedicated to the advancement and improvement of RNA three-dimensional structure prediction. With agreement from structural biologists, RNA structures are predicted by modeling groups before publication of the experimental structures. We report a large-scale set of predictions by 18 groups for 23 RNA-Puzzles: 4 RNA elements, 2 Aptamers, 4 Viral elements, 5 Ribozymes and 8 Riboswitches. We describe automatic assessment protocols for comparisons between prediction and experiment. Our analyses reveal some critical steps to be overcome to achieve good accuracy in modeling RNA structures: identification of helix-forming pairs and of non-Watson-Crick modules, correct coaxial stacking between helices and avoidance of entanglements. Three of the top four modeling groups in this round also ranked among the top four in the CASP15 contest.",
     "issn": "1548-7105",
     "year": 2024,
-    "tag": ["Molecular modeling"]
+    "tags": ["Molecular modeling"]
   },
   {
     "id": "Kant_2025",
@@ -336,7 +336,7 @@
     "abstract": "We introduce an updated non-redundant protein-RNA docking benchmark version 3.0 (PRDBv3.0) containing 197 test cases curated from 288 unique protein-RNA complexes available in the Protein Data Bank until July 2024. Among these, 27 are unbound-unbound (UU) type where both the binding partners are available in their unbound states, 160 are unbound-bound (UB) type where only the protein is available in unbound state and remaining 10 are bound-unbound (BU) type where only the RNA is available in unbound state. The benchmark is categorized into three classes based on the conformational flexibility of the protein interface: 117 rigid-body (R) complexes with minimal structural changes, 41 semi-flexible (S) complexes showing moderate conformational changes and 29 full-flexible (F) complexes with significant conformational changes. The current benchmark represents a 62\\% increase in the number of test cases compared to its previous version. Binding affinity (K(d)) values for a subset of 105 protein-RNA complexes from PRDBv3.0 are catalogued along with additional experimental details to develop a comprehensive protein-RNA affinity benchmark. Moreover, a total of 255 unique RNA-binding domains, present in RNA-binding proteins, are also catalogued in this updated benchmark. PRDBv3.0 will facilitate the evaluation of both rigid-body and flexible docking methods as well as the methods that aim to predict binding affinity. The updated benchmark is freely available at http://www.csb.iitkgp.ac.in/applications/PRDBv3/PRDBv3.php.",
     "issn": "1097-0134",
     "year": 2025,
-    "tag": ["Data mining", "Analysis"]
+    "tags": ["Data mining", "Analysis"]
   },
   {
     "id": "Biela_2025",
@@ -352,6 +352,6 @@
     "abstract": "Transfer RNAs (tRNAs) are ubiquitous non-coding RNA molecules required to translate mRNA-encoded sequence information into nascent polypeptide chains. Their relatively small size and heterogenous patterns of their RNA modifications have impeded the systematic structural characterization of individual tRNAs. Here, we use single-particle cryo-EM to determine the structures of four human tRNAs before and after incorporation of pseudouridines (Ψ). Following post-transcriptional modifications by distinct combinations of human pseudouridine synthases, we find that tRNAs become stabilized and undergo specific local structural changes. We establish interactions between the D- and T-arms as the key linchpin in the tertiary structure of tRNAs. Our structures of human tRNAs highlight the vast potential of cryo-EM combined with biophysical measurements and computational simulations for structure-function analyses of tRNAs and other small, folded RNA domains.",
     "issn": "1460-2075",
     "year": 2025,
-    "tag": ["Analysis", "Molecular modeling"]
+    "tags": ["Analysis", "Molecular modeling"]
   }
 ]
