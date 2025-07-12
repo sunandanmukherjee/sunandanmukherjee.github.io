@@ -113,7 +113,7 @@
     "entry_type": "inbook",
     "title": "Modeling of Three-Dimensional RNA Structures Using SimRNA",
     "author": "Tomasz K. Wirecki, Chandran Nithin, Sunandan Mukherjee, Janusz M. Bujnicki, Michał J. Boniecki",
-    "journal": "Protein Structure Prediction (4ed.), Methods in Molecular Biology"
+    "journal": "Protein Structure Prediction (4ed.), Methods in Molecular Biology",
     "pages": "103–125",
     "doi": "10.1007/978-1-0716-0708-4_6",
     "url": "http://dx.doi.org/10.1007/978-1-0716-0708-4_6",
@@ -355,5 +355,21 @@
     "issn": "1460-2075",
     "year": 2025,
     "tags": ["Analysis", "Molecular modeling"]
+  },
+  {
+    "id": "Luo_2023",
+    "entry_type": "article",
+    "title": "Cryo-EM reveals dynamics of Tetrahymena group I intron self-splicing",
+    "author": "Bingnan Luo, Chong Zhang, Xiaobin Ling, Sunandan Mukherjee, Guowen Jia, Jiahao Xie, Xinyu Jia, Liu Liu, Eugene F. Baulin, Yongbo Luo, Longxing Jiang, Haohao Dong, Xiawei Wei, Janusz M. Bujnicki, Zhaoming Su",
+    "journal": "Nature Catalysis",
+    "volume": "6",
+    "number": "4",
+    "pages": "298-309",
+    "doi": "10.1038/s41929-023-00934-3",
+    "url": "https://doi.org/10.1038/s41929-023-00934-3",
+    "abstract": "The group I self-splicing introns, like other RNAs and RNA--protein complexes, undergo multiple conformational changes in completing two transesterification reactions that cleave the intron and ligate the exons, but the detailed mechanism remains largely unknown. Here we use cryogenic electron microscopy to reveal six conformations associated with Tetrahymena intron self-splicing at 2.84--3.73{\\thinspace",
+    "issn": "2520-1158",
+    "year": 2023,
+    "tags": ["Molecular modeling", "Analysis"]
   }
 ]
