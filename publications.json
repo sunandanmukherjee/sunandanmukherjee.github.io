@@ -324,7 +324,7 @@
     "url": "http://dx.doi.org/10.1038/s41592-024-02543-9",
     "abstract": "RNA-Puzzles is a collective endeavor dedicated to the advancement and improvement of RNA three-dimensional structure prediction. With agreement from structural biologists, RNA structures are predicted by modeling groups before publication of the experimental structures. We report a large-scale set of predictions by 18 groups for 23 RNA-Puzzles: 4 RNA elements, 2 Aptamers, 4 Viral elements, 5 Ribozymes and 8 Riboswitches. We describe automatic assessment protocols for comparisons between prediction and experiment. Our analyses reveal some critical steps to be overcome to achieve good accuracy in modeling RNA structures: identification of helix-forming pairs and of non-Watson-Crick modules, correct coaxial stacking between helices and avoidance of entanglements. Three of the top four modeling groups in this round also ranked among the top four in the CASP15 contest.",
     "issn": "1548-7105",
-    "year": 2024,
+    "year": 2025,
     "tags": ["Molecular modeling"]
   },
   {
