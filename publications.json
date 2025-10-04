@@ -357,6 +357,22 @@
     "tags": ["Analysis", "Molecular modeling"]
   },
   {
+    "id": "Loureiro_2025",
+    "entry_type": "article",
+    "title": "Modeling flexible RNA 3D structures and RNA-protein complexes",
+    "author": "Rui João Loureiro, Satyabrata Maiti, Kuntal Mondal, Sunandan Mukherjee, Janusz M. Bujnicki",
+    "journal": "Current Opinion in Structural Biology",
+    "volume": "16",
+    "number": "94",
+    "pages": "103137",
+    "doi": "10.1016/j.sbi.2025.103137",
+    "url": "http://dx.doi.org/10.1016/j.sbi.2025.103137",
+    "abstract": "RNA and RNA-protein (RNP) complexes are central to many cellular processes, but the determination of their structures remains challenging due to RNA flexibility and interaction diversity. This review highlights recent computational advances, particularly from the past two years, in predicting and analyzing RNA and RNP structures. We discuss template-based modeling, docking, molecular simulations, and deep learning approaches, with an emphasis on emerging hybrid methods that integrate these strategies. Special attention is given to tools for modeling conformational heterogeneity, folding pathways, and dynamic binding. We also outline machine learning and simulation techniques for ensemble prediction and explore future directions including quantum-enhanced modeling. Together, these developments are enabling more accurate and scalable modeling of both the static and dynamic aspects of RNA and RNP complexes.",
+    "issn": "0959-440X",
+    "year": 2025,
+    "tags": ["Review"]
+  },
+  {
     "id": "Luo_2023",
     "entry_type": "article",
     "title": "Cryo-EM reveals dynamics of Tetrahymena group I intron self-splicing",
